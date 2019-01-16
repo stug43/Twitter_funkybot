@@ -50,7 +50,7 @@ def liking_and_follow_25_recents_bonjour(client)
 		puts "vous avez liké le post #{k.id} de #{k.user.id}."
 		client.follow(k.user.id)
 		puts "vous suivez maintenant #{k.user.id}."
-		sleep (50)
+		sleep (75)
 	end
 end
 
